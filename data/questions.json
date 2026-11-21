@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "question": "What does NumPy stand for?",
+    "options": [
+      "Numerical Python",
+      "Number Program",
+      "Numeric Programming",
+      "New Python"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "Which is the most important N-dimensional array object in NumPy?",
+    "options": [
+      "list",
+      "tuple",
+      "ndarray",
+      "dictionary"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "NumPy was created by Travis Oliphant in which year, according to the notes?",
+    "options": [
+      "2000",
+      "2005",
+      "2010",
+      "2015"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "NumPy is mostly written in which programming language?",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Ruby"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Which import statement is commonly used in the notes?",
+    "options": [
+      "import numpy as np",
+      "include numpy",
+      "using numpy",
+      "from python import numpy"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "Which function creates an ndarray from a sequence or array-like object?",
+    "options": [
+      "np.zeros()",
+      "np.array()",
+      "np.reshape()",
+      "np.arange()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "In np.array(), what does the dtype parameter specify?",
+    "options": [
+      "Array size",
+      "Desired data type",
+      "Number of dimensions",
+      "Array index"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "What is the output of np.array([1, 2, 3]) in terms of dimensions?",
+    "options": [
+      "1-D array",
+      "2-D array",
+      "3-D array",
+      "Scalar"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "What is the shape of np.array([[1,2,3],[4,5,6]])?",
+    "options": [
+      "(3, 2)",
+      "(2, 3)",
+      "(6,)",
+      "(2, 2)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "What does ndarray.shape return?",
+    "options": [
+      "Data type",
+      "Number of bytes",
+      "Tuple of array dimensions",
+      "Array values"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "question": "What does ndarray.ndim return?",
+    "options": [
+      "Number of dimensions",
+      "Number of elements",
+      "Element size",
+      "Maximum value"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "What does ndarray.itemsize return?",
+    "options": [
+      "Total array size",
+      "Bytes used by each element",
+      "Number of rows",
+      "Number of columns"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "question": "What is the itemsize of an int8 element?",
+    "options": [
+      "1 byte",
+      "2 bytes",
+      "4 bytes",
+      "8 bytes"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "question": "What is the itemsize of a float32 element?",
+    "options": [
+      "1 byte",
+      "2 bytes",
+      "4 bytes",
+      "8 bytes"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 15,
+    "question": "Which data type is a double-precision floating-point type?",
+    "options": [
+      "float16",
+      "float32",
+      "float64",
+      "int64"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "question": "What does np.dtype('i4') represent?",
+    "options": [
+      "int8",
+      "int16",
+      "int32",
+      "int64"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "question": "What is the purpose of a structured dtype?",
+    "options": [
+      "To store named fields with specified data types",
+      "To sort an array",
+      "To reshape an array",
+      "To calculate a mean"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 18,
+    "question": "How can a field named 'age' be accessed from a structured array a?",
+    "options": [
+      "a.age()",
+      "a['age']",
+      "a(age)",
+      "a.age[0]"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "question": "What does np.zeros(5) create by default?",
+    "options": [
+      "Five ones",
+      "Five zeros as floating-point values",
+      "Five integers from 0 to 4",
+      "An empty array"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Which function creates an array filled with ones?",
+    "options": [
+      "np.ones()",
+      "np.fullzero()",
+      "np.arange()",
+      "np.fromiter()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "question": "What is the default dtype of np.zeros(5) in the notes?",
+    "options": [
+      "int8",
+      "float",
+      "bool_",
+      "complex"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "question": "Which function creates a one-dimensional array from an iterable?",
+    "options": [
+      "np.linspace()",
+      "np.fromiter()",
+      "np.concatenate()",
+      "np.transpose()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "question": "What does the stop argument mean in np.arange(start, stop, step)?",
+    "options": [
+      "It is included always",
+      "It is not included in the range",
+      "It gives the array shape",
+      "It sets the data type"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "question": "What is the output of np.arange(10, 20, 2)?",
+    "options": [
+      "[10 12 14 16 18]",
+      "[10 12 14 16 18 20]",
+      "[10 11 12 13 14]",
+      "[12 14 16 18 20]"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 25,
+    "question": "Which function specifies the number of evenly spaced samples rather than a step size?",
+    "options": [
+      "np.arange()",
+      "np.linspace()",
+      "np.zeros()",
+      "np.fromiter()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "In np.linspace(10, 20, 5), what is the default behavior of endpoint?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "It is not supported"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "question": "What does endpoint=False do in np.linspace()?",
+    "options": [
+      "Includes the stop value twice",
+      "Excludes the stop value",
+      "Returns only the start value",
+      "Changes dtype to integer"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "question": "In basic slicing, what does a[2:7:2] specify?",
+    "options": [
+      "Start 2, stop 7, step 2",
+      "Start 2, stop 7, size 2",
+      "Row 2, column 7",
+      "Two-dimensional slicing"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "question": "Which operator is used for Boolean array indexing in the example x[x > 5]?",
+    "options": [
+      "Assignment",
+      "Comparison",
+      "Membership",
+      "Identity"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "What does the ellipsis (...) help with in NumPy slicing?",
+    "options": [
+      "Sorting elements",
+      "Selecting across dimensions without writing every colon",
+      "Changing data type",
+      "Adding dimensions"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 31,
+    "question": "What is broadcasting in NumPy?",
+    "options": [
+      "Converting arrays to strings",
+      "Using arrays of compatible different shapes in operations",
+      "Sorting arrays",
+      "Deleting array elements"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 32,
+    "question": "For broadcasting, a dimension is compatible when its size matches the output size or is what value?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "If a dimension has size 1 during broadcasting, what happens?",
+    "options": [
+      "The dimension is deleted",
+      "Its first entry is used across that dimension",
+      "The operation always fails",
+      "The array becomes a scalar"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "question": "Which NumPy function calculates sine values?",
+    "options": [
+      "np.cos()",
+      "np.tan()",
+      "np.sin()",
+      "np.arcsin()"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "question": "Trigonometric functions in the notes expect angles in which unit?",
+    "options": [
+      "Degrees",
+      "Radians",
+      "Gradians",
+      "Revolutions"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "How can degrees be converted to radians in the example?",
+    "options": [
+      "Multiply by 180/pi",
+      "Multiply by pi/180",
+      "Add pi",
+      "Divide by 360"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "question": "Which function converts radians to degrees?",
+    "options": [
+      "np.radians()",
+      "np.degrees()",
+      "np.around()",
+      "np.angle()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "question": "What does np.arcsin() return?",
+    "options": [
+      "Sine of an angle",
+      "Inverse sine, in radians",
+      "Angle in degrees by default",
+      "Cosine of an angle"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "question": "Which function rounds values to a specified decimal precision?",
+    "options": [
+      "np.floor()",
+      "np.ceil()",
+      "np.around()",
+      "np.ptp()"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 40,
+    "question": "What is the default decimals value for np.around(a)?",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "question": "What does np.ceil(1.5) return?",
+    "options": [
+      "1.0",
+      "1.5",
+      "2.0",
+      "0.0"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 42,
+    "question": "What does np.floor(-1.7) return?",
+    "options": [
+      "-1.0",
+      "-2.0",
+      "0.0",
+      "-1.7"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "question": "Which function performs element-wise addition of arrays?",
+    "options": [
+      "np.add()",
+      "np.dot()",
+      "np.matmul()",
+      "np.concatenate()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "question": "Which function returns the element-wise reciprocal?",
+    "options": [
+      "np.power()",
+      "np.reciprocal()",
+      "np.mod()",
+      "np.divide()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 45,
+    "question": "What does np.power(a, b) do?",
+    "options": [
+      "Adds a and b",
+      "Raises each element of a to the corresponding power in b",
+      "Finds the remainder",
+      "Finds the mean"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 46,
+    "question": "Which function returns the remainder of division?",
+    "options": [
+      "np.mod()",
+      "np.mean()",
+      "np.median()",
+      "np.multiply()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "question": "Which object is used to iterate efficiently over multidimensional arrays?",
+    "options": [
+      "np.nditer",
+      "np.iterarray",
+      "np.loop",
+      "np.walk"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "question": "What is the result of transposing a 3 x 4 array?",
+    "options": [
+      "3 x 4",
+      "4 x 3",
+      "12 x 1",
+      "1 x 12"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 49,
+    "question": "Which attribute provides a transpose operation similar to np.transpose(a)?",
+    "options": [
+      "a.shape",
+      "a.ndim",
+      "a.T",
+      "a.itemsize"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 50,
+    "question": "Which function joins arrays along a specified axis?",
+    "options": [
+      "np.concatenate()",
+      "np.unique()",
+      "np.delete()",
+      "np.sort()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 51,
+    "question": "What is the default axis used by np.concatenate((a, b))?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "None"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 52,
+    "question": "Which function stacks arrays horizontally?",
+    "options": [
+      "np.vstack()",
+      "np.hstack()",
+      "np.split()",
+      "np.resize()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 53,
+    "question": "Which function stacks arrays vertically?",
+    "options": [
+      "np.vstack()",
+      "np.hstack()",
+      "np.flatten()",
+      "np.insert()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 54,
+    "question": "What does np.reshape() do?",
+    "options": [
+      "Changes array shape without changing its data",
+      "Sorts the array",
+      "Deletes elements",
+      "Returns unique values"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 55,
+    "question": "What is the result shape of np.arange(6).reshape(3, 2)?",
+    "options": [
+      "(2, 3)",
+      "(3, 2)",
+      "(6, 1)",
+      "(1, 6)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "question": "What does ndarray.flatten() return?",
+    "options": [
+      "A 2-D view",
+      "A copy collapsed into one dimension",
+      "A sorted array",
+      "An iterator over rows"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 57,
+    "question": "What is the default flattening order for a.flatten()?",
+    "options": [
+      "F-style column-first",
+      "C-style row-first",
+      "Random order",
+      "Reverse order"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "question": "What does flatten(order='F') mean?",
+    "options": [
+      "Row-first order",
+      "Column-first order",
+      "Reverse order",
+      "Sort by frequency"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 59,
+    "question": "What does ndarray.flat provide?",
+    "options": [
+      "A 1-D iterator over the array",
+      "A matrix inverse",
+      "A sorted copy",
+      "A shape tuple"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 60,
+    "question": "Which function divides an array into subarrays?",
+    "options": [
+      "np.split()",
+      "np.append()",
+      "np.unique()",
+      "np.insert()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 61,
+    "question": "In np.split(a, 3), what does 3 indicate?",
+    "options": [
+      "Three dimensions",
+      "Three equal-sized sections",
+      "Index 3 only",
+      "Three rows must be removed"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 62,
+    "question": "What happens when np.resize() increases the total size beyond the original?",
+    "options": [
+      "It fills with zeros only",
+      "It repeats entries from the original array",
+      "It raises an error always",
+      "It truncates the array"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 63,
+    "question": "Which function adds values to the end of an array and returns a new array?",
+    "options": [
+      "np.append()",
+      "np.delete()",
+      "np.sort()",
+      "np.extract()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 64,
+    "question": "Which function inserts values before a specified index?",
+    "options": [
+      "np.delete()",
+      "np.insert()",
+      "np.concatenate()",
+      "np.reshape()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 65,
+    "question": "Which function removes a specified subarray and returns a new array?",
+    "options": [
+      "np.insert()",
+      "np.append()",
+      "np.delete()",
+      "np.unique()"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 66,
+    "question": "What happens in np.delete(arr, 5) when axis is omitted?",
+    "options": [
+      "Deletes row 5",
+      "Deletes column 5",
+      "Flattens the input before deletion",
+      "Deletes the fifth array"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 67,
+    "question": "What does np.unique() return by default?",
+    "options": [
+      "Repeated values only",
+      "Unique elements",
+      "Indices of maximum values",
+      "Sorted rows only"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 68,
+    "question": "Which parameter of np.unique() requests the occurrence count of each unique value?",
+    "options": [
+      "return_index",
+      "return_inverse",
+      "return_counts",
+      "axis"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 69,
+    "question": "Which NumPy character function performs element-wise string concatenation?",
+    "options": [
+      "np.char.add()",
+      "np.char.split()",
+      "np.char.strip()",
+      "np.char.title()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 70,
+    "question": "What does np.char.multiply('Hi', 3) do?",
+    "options": [
+      "Repeats the string three times",
+      "Converts it to uppercase",
+      "Splits it into three words",
+      "Pads it to width three"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 71,
+    "question": "Which function centers a string within a specified width?",
+    "options": [
+      "np.char.center()",
+      "np.char.capitalize()",
+      "np.char.lower()",
+      "np.char.replace()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 72,
+    "question": "Which function capitalizes the first letter of a string?",
+    "options": [
+      "np.char.title()",
+      "np.char.capitalize()",
+      "np.char.upper()",
+      "np.char.strip()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 73,
+    "question": "Which function capitalizes the first letter of every word?",
+    "options": [
+      "np.char.title()",
+      "np.char.lower()",
+      "np.char.split()",
+      "np.char.add()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 74,
+    "question": "Which function splits a string into a list of words?",
+    "options": [
+      "np.char.join()",
+      "np.char.split()",
+      "np.char.center()",
+      "np.char.multiply()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 75,
+    "question": "What does np.char.strip() remove?",
+    "options": [
+      "All spaces inside a string",
+      "Specified leading and trailing characters",
+      "Every repeated letter",
+      "All numbers"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 76,
+    "question": "Which function returns the minimum value in an array?",
+    "options": [
+      "np.amax()",
+      "np.amin()",
+      "np.ptp()",
+      "np.mean()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 77,
+    "question": "Which function returns the maximum value in an array?",
+    "options": [
+      "np.amax()",
+      "np.amin()",
+      "np.median()",
+      "np.var()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 78,
+    "question": "What does np.ptp() calculate?",
+    "options": [
+      "Mean",
+      "Range (maximum minus minimum)",
+      "Median",
+      "Standard deviation"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 79,
+    "question": "How is arithmetic mean calculated?",
+    "options": [
+      "Maximum minus minimum",
+      "Sum of elements divided by number of elements",
+      "Product divided by sum",
+      "Middle value only"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 80,
+    "question": "What is the median?",
+    "options": [
+      "The largest value",
+      "The value separating the higher and lower halves of a data sample",
+      "The difference between maximum and minimum",
+      "The square root of variance"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 81,
+    "question": "Standard deviation is the square root of what?",
+    "options": [
+      "Mean",
+      "Median",
+      "Variance",
+      "Range"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 82,
+    "question": "Which function calculates variance?",
+    "options": [
+      "np.std()",
+      "np.var()",
+      "np.ptp()",
+      "np.amin()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 83,
+    "question": "Which function returns a sorted copy of an array?",
+    "options": [
+      "np.sort()",
+      "np.argmax()",
+      "np.nonzero()",
+      "np.where()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 84,
+    "question": "Which sorting algorithm is listed in the notes?",
+    "options": [
+      "quicksort",
+      "bubblesort",
+      "radixsort",
+      "selectionsort"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 85,
+    "question": "What does np.argmax() return?",
+    "options": [
+      "Maximum value",
+      "Index of maximum element",
+      "Minimum index",
+      "Array average"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 86,
+    "question": "What does np.argmin() return?",
+    "options": [
+      "Index of minimum element",
+      "Minimum value only",
+      "Index of maximum element",
+      "Number of zero elements"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 87,
+    "question": "Which function returns indices of non-zero elements?",
+    "options": [
+      "np.where()",
+      "np.nonzero()",
+      "np.extract()",
+      "np.unique()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 88,
+    "question": "Which function returns indices where a given condition is satisfied?",
+    "options": [
+      "np.where()",
+      "np.mean()",
+      "np.sort()",
+      "np.vstack()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 89,
+    "question": "Which function returns elements that satisfy a condition?",
+    "options": [
+      "np.extract()",
+      "np.argmax()",
+      "np.transpose()",
+      "np.itemsize()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 90,
+    "question": "Which submodule provides matrix-related functions in the notes?",
+    "options": [
+      "numpy.matlib",
+      "numpy.string",
+      "numpy.arraylib",
+      "numpy.stats"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 91,
+    "question": "What does np.matlib.identity(5) create?",
+    "options": [
+      "A 5 x 5 identity matrix",
+      "A 5 x 1 zero matrix",
+      "A 1 x 5 matrix of ones",
+      "A random 5 x 5 matrix"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 92,
+    "question": "Which function creates a matrix filled with random values in matlib?",
+    "options": [
+      "np.matlib.ones()",
+      "np.matlib.rand()",
+      "np.matlib.zeros()",
+      "np.matlib.identity()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 93,
+    "question": "Which NumPy module provides linear algebra functionality?",
+    "options": [
+      "numpy.linalg",
+      "numpy.matlib",
+      "numpy.char",
+      "numpy.nditer"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 94,
+    "question": "For two 2-D arrays, what does np.dot() calculate?",
+    "options": [
+      "Element-wise string join",
+      "Matrix product",
+      "Array range",
+      "Array transpose"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 95,
+    "question": "What does np.vdot() do with multidimensional arrays?",
+    "options": [
+      "Sorts them by columns",
+      "Flattens them before calculating the dot product",
+      "Finds the determinant",
+      "Returns the inverse"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 96,
+    "question": "Which function calculates the matrix product of two arrays?",
+    "options": [
+      "np.matmul()",
+      "np.mod()",
+      "np.median()",
+      "np.char.add()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 97,
+    "question": "Which function calculates the determinant of a matrix?",
+    "options": [
+      "np.linalg.solve()",
+      "np.linalg.det()",
+      "np.linalg.inv()",
+      "np.inner()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 98,
+    "question": "For a 2 x 2 matrix [[a,b],[c,d]], what is the determinant?",
+    "options": [
+      "ab - cd",
+      "ad - bc",
+      "ac - bd",
+      "a + b + c + d"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 99,
+    "question": "Which function solves a system of linear equations in matrix form?",
+    "options": [
+      "np.linalg.solve()",
+      "np.linalg.det()",
+      "np.linalg.inv()",
+      "np.concatenate()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 100,
+    "question": "Which function calculates the inverse of a matrix?",
+    "options": [
+      "np.linalg.inv()",
+      "np.linalg.det()",
+      "np.linalg.solve()",
+      "np.inner()"
+    ],
+    "answer": "A"
+  }
+]

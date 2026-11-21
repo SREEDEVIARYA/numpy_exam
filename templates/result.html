@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<div class="cardbox text-center"><h2>Exam submitted</h2><p>Your answers were checked automatically.</p><div class="score">{{r.score}} / {{r.total}}</div><h4>{{pct}}%</h4><p>Submitted at: {{r.submitted_at}}</p><a class="btn btn-primary" href="/logout">Logout</a></div>{% endblock %}
